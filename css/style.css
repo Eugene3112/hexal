@@ -64,6 +64,7 @@ body {
     
     margin:0 auto;
     padding-top: 70px;
+    border-bottom: 1px solid #e4e9eb;
 }
 .hexagon{
     width :180px;
@@ -90,6 +91,8 @@ body {
     background-image: url('../img/1.png');
     background-repeat: no-repeat;
     background-position:  50%;
+    
+    
   }
   .imges2{
     background-image: url('../img/2.png');
@@ -132,6 +135,7 @@ body {
 .row1{
     width: 820px;
     margin: 0 auto;
+    
 }
 .row2{
     width: 1100px;
@@ -145,4 +149,101 @@ body {
     margin: 0 auto;
     position: relative;
     top: -120px;
+}
+
+
+.about-conteiner{
+    min-height: 340px;
+    background-color: #2eb398;
+    padding-top: 10px;
+}
+.info{
+    width: 820px;
+    margin: 0 auto;
+    border-left: 1px solid #219d84;
+    border-right: 1px solid #219d84;
+    min-height: 310px;
+    margin-top: 10px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.infoimg{
+    width :180px;
+    height: 210px;
+    margin: 20px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    float:left;
+}
+.infoimg1{
+    visibility: hidden;
+    width :100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+.infoimg2{
+    width :100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url('../img/me.png');
+    background-repeat: no-repeat;
+    background-position:  50%;
+}
+.infotext{
+  color:#d7fcf5;
+  font-family: 'MavenPro', sans-serif;
+}
+.infotext h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.infotext h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #20816d;
+    line-height:1;
+    margin-top: 0;
+}
+.infotext p{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    width: 790px;
+}
+.social{
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+.sprait{
+    width: 25px;
+    height: 24px;
+    display:inline-block;
+    background-image: url('../img/social.png');
+    background-repeat: no-repeat;
+    margin: -2px;
+    padding: 0;  
+}
+.twitter{
+    background-position-x: -25px;
+}
+.google{
+    background-position-x: -50px;
+}
+.pi{
+    background-position-x: -75px;
+}
+.in{
+    background-position-x: -100px;
+}
+.global{
+    background-position-x: -125px;
 }
