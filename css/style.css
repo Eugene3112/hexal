@@ -8,14 +8,17 @@ body {
     height: 60px;
 }
 .main-menu{
-    width: 448px;
-    margin: 0 auto;
+    width: 960px;
+    margin:0 auto;
+    border-bottom: 1px solid #e4e9eb;
+    text-align: center;
     
 }
 .menu-item{
     display: inline-block;
     vertical-align: middle;
     padding: 0 11px;
+    
     
 }
 .menu-item:first-child{
@@ -56,3 +59,90 @@ body {
       color: #2eb398;
   }
   
+
+.hexagon-conteiner{
+    
+    margin:0 auto;
+    padding-top: 70px;
+}
+.hexagon{
+    width :180px;
+    height: 210px;
+    margin: 10px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+.hex1{
+    visibility: hidden;
+    width :100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+  }
+  .hex2{
+    width :100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url('../img/1.png');
+    background-repeat: no-repeat;
+    background-position:  50%;
+  }
+  .imges2{
+    background-image: url('../img/2.png');
+    background-repeat: no-repeat;
+    background-position:  50%;
+  }
+  .imges3{
+    background-image: url('../img/3.png');
+  }
+  .imges4{
+    background-image: url('../img/4.png');
+  }
+  .imges5{
+    background-image: url('../img/5.png');
+  }
+  .imges6{
+    background-image: url('../img/6.png');
+  }
+.imges7{
+    background-image: url('../img/7.png');
+}
+.imges8{
+    background-image: url('../img/8.png');
+}
+.imges9{
+    background-image: url('../img/9.png');
+}
+.imges10{
+    background-image: url('../img/10.png');
+}
+.imges11{
+    background-image: url('../img/11.png');
+}
+.imges12{
+    background-image: url('../img/12.png');
+}
+.imges13{
+    background-image: url('../img/13.png');
+}
+.row1{
+    width: 820px;
+    margin: 0 auto;
+}
+.row2{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    left:40px;
+    top: -60px;
+}
+.row3{
+    width: 820px;
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+}
