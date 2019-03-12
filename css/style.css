@@ -94,6 +94,10 @@ body {
     
     
   }
+  .hex2:hover{
+      width: 110%;
+      height: 110%;
+  }
   .imges2{
     background-image: url('../img/2.png');
     background-repeat: no-repeat;
