@@ -247,3 +247,121 @@ body {
 .global{
     background-position-x: -125px;
 }
+
+
+footer{
+    height: 580px;
+    background-color: #323232;
+
+}
+.contact-conteiner{
+    box-sizing: border-box;
+    width: 825px;
+    margin:0 auto;
+    height: 540px;
+    padding-top:50px;
+}
+.form{
+    width: 600px;
+    float: left;
+    
+}
+fieldset{
+    border: none;
+    font-family: 'MavenPro', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color:#e0e0e0;
+
+}
+fieldset p{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: -8px;
+}
+.name,
+.email,
+.subject,
+.text{
+    width: 550px;
+    background-color: #454545;
+    border: none;
+    color: #bebebe;
+    padding-left:10px; 
+}
+.name,
+.email,
+.subject{
+    height: 40px;
+    margin-bottom: 15px;
+    
+}
+.text{
+    padding: 0;
+    padding-top:10px; 
+    padding-left:10px;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: #2eb398;
+    color:#d7fcf5;
+    float:right;
+    width: 90px;
+    height: 35px;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+.words{
+    font-family: 'Lato',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color:#d7fcf5;
+    width: 189px;
+    height: 100px;
+    float: left;
+    margin-top: 57px;
+    
+    line-height:1.5em;
+}
+.words p{
+    text-align: justify;
+}
+.contacts{
+    width: 150px;
+    color:#d7fcf5;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 80px;
+    
+    float:left;
+}
+.images-loc{
+    height: 13px;
+    width: 13px;
+    background-image: url('../img/tel.png');
+    background-repeat: no-repeat;
+    background-position-y:2px;
+    float:left;
+    margin-right: 10px;
+}
+.tel{
+    background-position-y:-20px;
+}
+.mess{
+    background-position-y:-40px;
+}
+.copyrite{
+    background-color: #222222;
+    color: #323232;
+    height: 50px;
+    font-family: 'Lato',sans-serif;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
